@@ -21,7 +21,9 @@ int tower_of_hanoi(int n, char from_rod, char to_rod, char aux_rod)
 int main(void)
 {
   int n;
+  // using this function the value for n is taken from the user.
   scanf("%d", &n);
+  // the function is called with 4 parameters, n, A, C and B respectively.
   tower_of_hanoi(n, 'A', 'C', 'B');
   return 0;
 }
